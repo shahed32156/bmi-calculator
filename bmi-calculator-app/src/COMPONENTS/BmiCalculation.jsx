@@ -135,7 +135,7 @@ const handleSubmit = (e) => {
     <div className='flex justify-center items-center gap-6 mt-10'>
     
       <button className='bg-[tomato] h-[40px] w-[120px] rounded-md hover:bg-[#339e91] text-white text-[18px] font-semibold'>Calculate</button>
-      <button className='bg-red-500 h-[40px] w-[120px] rounded-md hover:bg-[red] text-white text-[18px] font-semibold' onClick={() => {setHeight(''); setWeight('');}}>Reset</button>
+      <button className='bg-red-500 h-[40px] w-[120px] rounded-md hover:bg-[red] text-white text-[18px] font-semibold' onClick={() => {setHeight(''); setWeight('');setBmi('');}}>Reset</button>
       <ToastContainer />
     </div>
 
